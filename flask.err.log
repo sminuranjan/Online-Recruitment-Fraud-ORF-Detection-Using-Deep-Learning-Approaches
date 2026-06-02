@@ -1,0 +1,60 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [11/May/2026 01:24:00] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:24:00] "GET /AdminLogin HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:24:01] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:24:01] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:24:32] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:24:48] "POST /AdminLoginAction HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:24:52] "POST /AdminLoginAction HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:25:12] "POST /AdminLoginAction HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:25:23] "POST /AdminLoginAction HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:26:24] "POST /AdminLoginAction HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:28:13] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:28:13] "GET /AdminLogin HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:28:14] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:28:14] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:28:14] "GET /favicon.ico HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:28:14] "GET /AdminLogin?msg=Please+login+to+continue. HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:28:24] "POST /AdminLoginAction HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:28:24] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:28:24] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:28:24] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:28:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/May/2026 01:28:28] "GET /Predict HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:28:28] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:28:28] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 304 -
+E:\ORF Project\FraudRecruitment\app.py:127: DtypeWarning: Columns (6,9,13) have mixed types. Specify dtype option on import or set low_memory=False.
+  training = pd.read_csv(TRAINING_DATA)
+E:\ORF Project\FraudRecruitment\venv\lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\ranja\.cache\huggingface\hub\models--sentence-transformers--distilbert-base-nli-stsb-mean-tokens. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+127.0.0.1 - - [11/May/2026 01:30:13] "POST /PredictAction HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:30:13] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:30:13] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:31:05] "GET /Chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:31:05] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:31:05] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:31:05] "GET /chat/status HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:31:11] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:31:11] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:31:11] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 304 -
+127.0.0.1 - - [11/May/2026 01:33:27] "GET /AdminLogin HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:33:33] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:33:34] "GET /AdminLogin HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:33:34] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:33:34] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:33:34] "GET /AdminLogin HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:33:34] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:20] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:35:20] "GET /index HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:22] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:22] "GET /static/images/fraud-detection-logo.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:31] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:35:31] "GET /AdminLogin HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:31] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:31] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [11/May/2026 01:35:31] "GET /AdminLogin HTTP/1.1" 200 -
+127.0.0.1 - - [11/May/2026 01:35:31] "GET /static/default.css?v=chat-thinking-2 HTTP/1.1" 200 -

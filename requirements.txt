@@ -1,0 +1,9 @@
+Flask
+pandas
+numpy
+h5py
+nltk
+sentence-transformers
+google-genai
+python-dotenv
+minisom

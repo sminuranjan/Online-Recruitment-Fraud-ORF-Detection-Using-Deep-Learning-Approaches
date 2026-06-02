@@ -1,0 +1,33 @@
+How to run this project
+=======================
+
+1. Open Command Prompt or PowerShell in this folder:
+
+   E:\ORF Project\FraudRecruitment
+
+2. Create a fresh virtual environment:
+
+   python -m venv venv
+
+3. Activate it:
+
+   venv\Scripts\activate
+
+4. Install dependencies:
+
+   pip install -r requirements.txt
+
+5. Run the Flask app:
+
+   python app.py
+
+6. Open this URL in the browser:
+
+   http://127.0.0.1:5000
+
+Demo login:
+
+   admin / admin
+
+Note:
+Do not install the old TensorFlow 1.14 dependency. The Flask app does not need it.
